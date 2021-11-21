@@ -1,0 +1,68 @@
+.tabs-container{
+    margin: 4% 0;
+  }
+
+.react-tabs__tab-list{
+        display: flex;
+        width: fit-content;
+        width: 100%;
+
+        margin:0 auto;
+   
+        list-style-type: none;
+}
+.react-tabs__tab{
+        width: 12.5%;
+        padding:12px 0;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        color:grey;
+
+}
+.react-tabs__tab--selected{
+        border-bottom: 1.5px solid #1E90FF;
+        color: #333;
+}
+.tab-panel-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+      .react-tabs__tab-panel{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+        .tab-card{
+        width: 20%;
+        margin: 30px 1.6%;
+        padding: 28px;
+        border-radius: 10px;
+        position: relative;
+        text-align: center;
+        }
+        .name{
+          margin-bottom: 20px;
+        }
+        .secondPrice{
+          font-size: 17px;
+          margin-bottom: 5px;
+        }
+        .firstPrice{
+          font-size: 13px;
+          color: grey;
+          margin-bottom: 17px;
+        }
+        button{
+          cursor: pointer;
+          border: 1px solid #1E90FF;
+          background: none;
+          font-size: 11px;
+          border-radius: 4px;
+          color: #1E90FF;
+          position: relative;
+          padding: 5px 70px;
+        }
+   
+
